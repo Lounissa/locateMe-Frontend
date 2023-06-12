@@ -12,7 +12,7 @@ import * as Location from 'expo-location';
 import { useSelector, useDispatch } from 'react-redux';
 import { addPlace, importPlaces } from '../reducers/user';
 
-const BACKEND_ADDRESS = 'https://192.168.86.93:3000/'; // Adresse IP de votre serveur backend à remplacer par la vôtre
+const BACKEND_ADDRESS = 'https://locale-me-backend-ul27.vercel.app'; // Adresse IP de votre serveur backend à remplacer par la vôtre
 
 export default function MapScreen() {
   const dispatch = useDispatch();
